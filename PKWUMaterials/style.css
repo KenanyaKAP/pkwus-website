@@ -1,0 +1,208 @@
+/* Custom CSS Font */
+.kaushan {
+	font-family: 'Kaushan Script', cursive !important;
+}
+.opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Body & HTML */
+body {
+	font-family: 'Open Sans', sans-serif;
+	/* background-color: #f1f1f1; */
+	/* background-image: url(img/wallpaperflare.com_wallpaper.jpg); */
+	background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('img/bg.jpg');
+	background-size: 100%;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #141414;
+	transition : background-color .5s, padding-top .5s;
+}
+.nav-link.active {
+	background-color: transparent !important;
+}
+@media (min-width: 992px) {	
+	.nav-link.active {
+		color: #000 !important;
+		background-color: #ffffff !important;
+		text-shadow: 0px 0px 0px;
+	}
+}
+.navbar-brand {
+	color: #69d2e7 !important;
+	font-size: 20px;
+	text-shadow: 10px 10px 10px black;
+}
+.navbar-nav {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+.nav-item {
+	margin-left: 30px;
+	min-width: 86px;
+	text-shadow: 10px 10px 10px black;
+}
+@media (min-width: 992px) {
+	.nav-item {
+		text-align: center;
+	}
+}
+.page-scroll {
+	padding: 8px;
+	margin-top: 3px;
+}
+@media (min-width: 992px) {
+	.page-scroll {
+		padding: 5px;
+	}
+}
+
+/* Organic */
+#organic::before {
+	display: block;
+	content: "";
+	height: 60px;
+	visibility: hidden;
+}
+.organic .bg {
+	min-height: 1000px;
+}
+.organic .card {
+	border-radius: 10px;
+}
+@media (min-width: 992px) {	
+	.organic .card {
+		margin-right: 100px;
+		margin-left: 100px;
+	}	
+}
+.organic .card-body {
+	text-align: justify;
+}
+@media (min-width: 992px) {	
+	.organic .card-body {
+		text-align: justify;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+.organic .card-body img {
+	height: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.organic .card-body h2 {
+	font-family: 'Oswald', sans-serif;	
+}
+
+/* Inorganic */
+#inorganic::before {
+	display: block;
+	content: "";
+	height: 60px;
+	visibility: hidden;
+}
+.inorganic .bg {
+	min-height: 1000px;
+}
+.inorganic .card {
+	border-radius: 10px;
+}
+@media (min-width: 992px) {	
+	.inorganic .card {
+		margin-right: 100px;
+		margin-left: 100px;
+	}	
+}
+.inorganic .card-body {
+	text-align: justify;
+}
+@media (min-width: 992px) {	
+	.inorganic .card-body {
+		text-align: justify;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+.inorganic .card-body img {
+	height: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.inorganic .card-body h2 {
+	font-family: 'Oswald', sans-serif;	
+}
+
+/* Textiles */
+#textiles::before {
+	display: block;
+	content: "";
+	height: 60px;
+	visibility: hidden;
+}
+.textiles .bg {
+	min-height: 1000px;
+	padding-bottom: 50px;
+}
+.textiles .card {
+	border-radius: 10px;
+}
+@media (min-width: 992px) {	
+	.textiles .card {
+		margin-right: 100px;
+		margin-left: 100px;
+	}	
+}
+.textiles .card-body {
+	text-align: justify;
+}
+@media (min-width: 992px) {	
+	.textiles .card-body {
+		text-align: justify;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+.textiles .card-body img {
+	height: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.textiles .card-body h2 {
+	font-family: 'Oswald', sans-serif;	
+}
+
+/* Footer */
+.footer .card {
+	border-radius: 0px;
+	background-color: #141414;
+}
+.footer .card-header {
+	color: #8f8f8f;
+	text-align: center;
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: "⇒    ";
+}

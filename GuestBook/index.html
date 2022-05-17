@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- My Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;664;700&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kelompok 2 - Guest Book</title>
+    <link rel="icon" href="../img/logo.png">
+  </head>
+  <body>
+    
+    <!-- Form -->
+		<section id="form" class="form">
+			<div class="jumbotron jumbotron-fluid">
+			  <div class="container">
+          <div class="text-center">
+            <img src="img/logo.png" class="rounded-circle" alt="logo"">
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-12 col-md-9 col-lg-8">
+              <div class="card">
+                <div class="card-body">
+                  <a href="../index.html" class="abi">
+                    <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 0 1 0 .708L3.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+                      <path fill-rule="evenodd" d="M2.5 8a.5.5 0 0 1 .5-.5h10.5a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </a>
+                  <form>
+                  
+                    <!-- Name -->
+                    <div class="form-group">
+                      <label class="labelheader" for="name">Name</label>
+                      <hr style="margin-top: -5px;">
+                      <div class="row">
+                        <div class="col-sm-12 col-lg-6 padbottom">
+                          <input type="text" class="form-control" id="name" placeholder="First name">
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                          <input type="text" class="form-control" id="name" placeholder="Last name">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col">
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" checked="" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label active" for="customRadioInline1">Male</label>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Female</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Address -->
+                    <div class="form-group">
+                      <label class="labelheader" for="address">Address</label>
+                      <hr style="margin-top: -5px;">
+                      <input type="text" class="form-control" id="address" placeholder="Jl. Example Address">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="labelheader" for="email">Email</label>
+                      <hr style="margin-top: -5px;">
+                      <input type="text" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                      <label class="labelheader" for="phone">Phone Number</label>
+                      <hr style="margin-top: -5px;">
+                      <input type="text" class="form-control" id="phone" placeholder="+628123456789">
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="form-group">
+                      <label class="labelheader" for="ig">Social Media</label>
+                      <hr style="margin-top: -5px;">
+                      <div class="row">
+                        <div class="col-sm-12 col-lg-6 padbottom">
+                          <input type="text" class="form-control" id="ig" placeholder="@instagram">
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                          <input type="text" class="form-control" id="line" placeholder="line_id">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Classes -->
+                    <div class="form-group">
+                      <label class="labelheader" for="classes">Class</label>
+                      <hr style="margin-top: -5px;">
+                      <div class="form-row align-items-center" id="classes">
+                        <div class="col">
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">XII Science 1</option>
+                            <option value="1">XII Science 2</option>
+                            <option value="1">XII Science 3</option>
+                            <option value="1">XII Science 4</option>
+                            <option value="1">XII Science 5</option>
+                            <option value="1">XII Science 6</option>
+                            <option value="1">XII Science 7</option>
+                            <option value="1">XII Science 8</option>
+                            <option value="1">XII Science 9</option>
+                            <option value="1">XII Social 1</option>
+                            <option value="1">XII Social 2</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                      <label class="labelheader" for="Message">Message Box</label>
+                      <hr style="margin-top: -5px;">
+                      <textarea class="form-control" id="Message" rows="6" placeholder="Message..."></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                      <button class="btn btn-secondary rounded-pill" type="submit">Submit</button>
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+			  </div>
+			</div>
+    </section>
+    
+    <!-- Footer -->
+		<div class="footer">
+			<div class="card">
+				<div class="card-header">
+					&copy; copyright 2020 | built by <a href="https://www.instagram.com/ken_3772/">Kenanya Keandra A. P.</a>
+				</div>
+			</div>
+		</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
